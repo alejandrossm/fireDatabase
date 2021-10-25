@@ -1,0 +1,7 @@
+{
+  "name": "fireDatabase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
