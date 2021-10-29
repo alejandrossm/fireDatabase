@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+ <h1>Prueba de ionic firebase</h1>
+<ion-button (click)="onClick()" expand="block">
+  Agregar uno
+</ion-button>
+
+<ion-list *ngFor="let usr of usuarios" >
+  <ion-item>
+    <ion-label>{{usr.username}}</ion-label>
+    <ion-label>{{usr.password}}</ion-label>
+
+  </ion-item>
+</ion-list>
+
+
+</ion-content>
